@@ -1,0 +1,44 @@
+#main1
+{
+   height: 610px;
+   width: 440px;
+   border: 1px solid black;
+   margin: auto;
+}
+#main
+{
+    height: 175px;
+    width: 430px;
+    background-color: rgb(85, 80, 80);
+    text-align: right;
+    font-size: xx-large;
+    color: white;
+}
+
+#lines{
+    height: 420px;
+    width: 438px;
+    background-color: rgb(246, 243, 243);
+}
+#button1
+{
+    height: 85px;
+    width: 140px;
+    background-color: rgb(212, 211, 208);
+   }
+#button2
+{
+    height: 85px;
+    width: 135px;
+    background-color: rgb(212, 211, 208);
+}
+#button3{
+    height: 85px;
+    width: 95px;
+    background-color: white;
+}
+#equalsto{
+    height: 85px;
+    width: 338px;
+    background-color: orangered;
+}

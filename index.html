@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+    <div id="main1">
+        <input type="text" id="main"></input>
+        <div id="lines">
+            <div id="line1">
+                <button id="button1" onclick="getvalue('/')"> / </button>
+                <button id="button1" onclick="getvalue('*')"> * </button>
+                <button id="button2" onclick="clearfunction()">CLEAR</button>
+            </div>
+            <div id="line2">
+                <button id="button3" onclick="getvalue('7')"> 7 </button>
+                <button id="button3" onclick="getvalue('8')"> 8 </button>
+                <button id="button3" onclick="getvalue('9')">9</button>
+                <button id="button1" onclick="getvalue('-')"> - </button>
+            </div>
+            <div id="line3">
+                <button id="button3" onclick="getvalue('4')"> 4 </button>
+                <button id="button3" onclick="getvalue('5')"> 5 </button>
+                <button id="button3" onclick="getvalue('6')">6</button>
+                <button id="button1" onclick="getvalue('+')"> + </button>
+            </div>
+            <div id="line4">
+                <button id="button3" onclick="getvalue('1')"> 1 </button>
+                <button id="button3" onclick="getvalue('2')"> 2 </button>
+                <button id="button3" onclick="getvalue('3')">3 </button>
+                <button id="button1" onclick="getvalue('.')">(.) </button>
+            </div>
+            <div id="line5">
+                <button id="button3" onclick="getvalue('0')"> 0 </button>
+                <button id="equalsto" onclick="result()"> = </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
